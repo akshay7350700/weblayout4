@@ -1,7 +1,13 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Poppins&display=swap');
+
+
 *{
  margin: 0px;
  padding: 0px;
  box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+
 }
 a{
  text-decoration: none;
@@ -237,5 +243,35 @@ div.content span{
  display: inline-block;
 }
 /* Blog Section Start*/
+
+/*footer section start*/
+footer{
+ width: 100%;
+ height: auto;
+ padding: 50px 125px;
+ background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)),
+           url(../img/banner2.jpg);
+ display: flex;
+ justify-content:space-between;
+
+}
+footer h3{
+color: #918E97;
+font-size: 22px;
+font-weight: 400;
+margin-bottom: 10px;
+}
+
+footer ul li{
+  list-style: none;
+}
+footer ul li a{
+ color: #918E97;
+}
+footer ul li a span{
+ color: #fff;
+ font-weight: 400;
+}
+/*footer section start*/
 
 
